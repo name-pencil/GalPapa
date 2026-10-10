@@ -1,0 +1,28 @@
+# Generated builds and archived local files
+/build/
+/dist/
+/trash/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Game archives, saves and compiled binaries
+*.ypf
+*.sav
+*.exe
+*.dll
+*.obj
+*.exp
+*.lib
+*.pdb
+
+# Logs and temporary install files
+*.log
+*.installing-*
+
+# Fonts, screenshots, source and license notices are tracked.

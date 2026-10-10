@@ -1,0 +1,1634 @@
+[
+  {
+    "id": 1,
+    "path": "cgsys/config/back_system.png",
+    "text": "창 모드 / 비활성 상태에서도 실행 / 항상 맨 위에 표시 / 읽지 않은 문장도 스킵 / 자동 진행 속도 / 메시지 창 불투명도 / 글자 테두리 / 그림자",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "c50c119df585202686d994aedbaa31a802dc54613d00c5bfad2b4c0d4b8b47dc"
+  },
+  {
+    "id": 2,
+    "path": "cgsys/config/back_sound.png",
+    "text": "전체 음량 / 음성 / 음성 재생 시 BGM 감소율 / 효과음 음량 / BGV 음량 / 시스템 효과음 음량 / 음성 중단 시점 / 자동 진행 시 음성 재생 대기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "2d7aa0258f25f713626d5291fe6ee8f69594ee7c50c4e2a61a7a171349d41446"
+  },
+  {
+    "id": 3,
+    "path": "cgsys/config/back_dialog.png",
+    "text": "저장 시 확인 / 불러오기 시 확인 / 빠른 저장 시 확인 / 빠른 불러오기 시 확인 / 저장 데이터 덮어쓰기 시 확인 / 타이틀로 돌아갈 때 확인 / 게임 종료 시 확인 / 호감도 힌트 표시",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "7f6b0f875e583531549561538bfa554b7c91c360e3226031170bd92e3b154f3c"
+  },
+  {
+    "id": 4,
+    "path": "cgsys/config/btn_window_off.png",
+    "text": "창 모드",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "38be4f77889bd035bdcd4e84c8ac5472e61c22b46b765bba2b5fd01050859cc0"
+  },
+  {
+    "id": 5,
+    "path": "cgsys/config/btn_window_on.png",
+    "text": "창 모드",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "3239f4b3a7f3646e8755b814b1567de72ceaca3f8ad601e77fdb662197feac08"
+  },
+  {
+    "id": 6,
+    "path": "cgsys/config/btn_window_onover.png",
+    "text": "창 모드",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "3239f4b3a7f3646e8755b814b1567de72ceaca3f8ad601e77fdb662197feac08"
+  },
+  {
+    "id": 7,
+    "path": "cgsys/config/btn_window_over.png",
+    "text": "창 모드",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "bf620d8c288ad464bb137c29daf06ab3a4b6a6f882a4ca3fd9675997ce1688d6"
+  },
+  {
+    "id": 8,
+    "path": "cgsys/config/btn_fullscreen_off.png",
+    "text": "전체 화면",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "c8d5a452668dc0abfd6606898e0b3716dac559812ca115387c299b66b20826c0"
+  },
+  {
+    "id": 9,
+    "path": "cgsys/config/btn_fullscreen_on.png",
+    "text": "전체 화면",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "e034facf47375ad82974708527a86756b72cdf00acaccdc302db083afc9c439c"
+  },
+  {
+    "id": 10,
+    "path": "cgsys/config/btn_fullscreen_onover.png",
+    "text": "전체 화면",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "e034facf47375ad82974708527a86756b72cdf00acaccdc302db083afc9c439c"
+  },
+  {
+    "id": 11,
+    "path": "cgsys/config/btn_fullscreen_over.png",
+    "text": "전체 화면",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "306d597777a07cf09f21fe1179d2fce1466091aa68c42c4d6c92531c4345baeb"
+  },
+  {
+    "id": 12,
+    "path": "cgsys/config/btn_nexttext_off.png",
+    "text": "다음 문장",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "08663c51e39eb262bfcd73ac133cc1acbbe5e417a7d5e7988d68da3b68d476a4"
+  },
+  {
+    "id": 13,
+    "path": "cgsys/config/btn_nexttext_on.png",
+    "text": "다음 문장",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "e96b8f5d60aaa72b43e3acc8d4213913a805e92b4b0417bf611a43da2ab23ea1"
+  },
+  {
+    "id": 14,
+    "path": "cgsys/config/btn_nexttext_onover.png",
+    "text": "다음 문장",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "e96b8f5d60aaa72b43e3acc8d4213913a805e92b4b0417bf611a43da2ab23ea1"
+  },
+  {
+    "id": 15,
+    "path": "cgsys/config/btn_nexttext_over.png",
+    "text": "다음 문장",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "59495ac46bcb663c5dbacc4c104acf4fb02420d8f6c12c55253fdf8e537890b1"
+  },
+  {
+    "id": 16,
+    "path": "cgsys/config/btn_nextvoice_off.png",
+    "text": "다음 음성",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "870d3cf5db5a55cdf1f60dc2e4f7a2fbed4918a4cc8adc8cdb22aae98a03c96a"
+  },
+  {
+    "id": 17,
+    "path": "cgsys/config/btn_nextvoice_on.png",
+    "text": "다음 음성",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "2fb17030911d9175e891409ee941ec7b5797665697a6c7a160d6972dd1474687"
+  },
+  {
+    "id": 18,
+    "path": "cgsys/config/btn_nextvoice_onover.png",
+    "text": "다음 음성",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "2fb17030911d9175e891409ee941ec7b5797665697a6c7a160d6972dd1474687"
+  },
+  {
+    "id": 19,
+    "path": "cgsys/config/btn_nextvoice_over.png",
+    "text": "다음 음성",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "2a5c2f1138ab69a573920cf7458691fc0d5a90b9c3ff4f3dfc93a1d182b1328d"
+  },
+  {
+    "id": 20,
+    "path": "cgsys/config/btn_default_off.png",
+    "text": "설정 초기화",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "afa22652fd8917b073c9f018814c011a9735ac184d99256e0048bdd3484e8509"
+  },
+  {
+    "id": 21,
+    "path": "cgsys/config/btn_default_over.png",
+    "text": "설정 초기화",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "d80e0b40fc5348c472329e339dab85d126cfee91e6aec6e601b06c0fce0c211d"
+  },
+  {
+    "id": 22,
+    "path": "cgsys/config/btn_exit_off.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "5fa6fbf32171a5e49d10e7e5780a64fbaa0cd59a168ca374bcc04b401caadb5c"
+  },
+  {
+    "id": 23,
+    "path": "cgsys/config/btn_exit_over.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "f69ea4d20c61e1c5e1806f3544bf6c772d76b632e46b27baa44f16b5f1bfdd7c"
+  },
+  {
+    "id": 24,
+    "path": "cgsys/config/btn_title_na.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "63f5cb099a1f5982736914258f9973d758b19ff80f9edd7b6d014ba7213892a1"
+  },
+  {
+    "id": 25,
+    "path": "cgsys/config/btn_title_off.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a780b7224b0506882694bf342b77533f2560b35933b5beb3e4db1e361496a8bb"
+  },
+  {
+    "id": 26,
+    "path": "cgsys/config/btn_title_over.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ddb925ce4bcf3d83a1add79a5dc1d132c746b6c49fa96461e1c3b4d5e22530fe"
+  },
+  {
+    "id": 27,
+    "path": "cgsys/config/btn_back_off.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ce6e874e16e3015549ea1130f1b4d54954d4172fec9be50b6d5282b1096da7d6"
+  },
+  {
+    "id": 28,
+    "path": "cgsys/config/btn_back_on.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ce6e874e16e3015549ea1130f1b4d54954d4172fec9be50b6d5282b1096da7d6"
+  },
+  {
+    "id": 29,
+    "path": "cgsys/config/btn_back_onover.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 30,
+    "path": "cgsys/config/btn_back_over.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 31,
+    "path": "cgsys/config/btn_rpmode_off.png",
+    "text": "회상 선택으로",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "2794b61ade084e5f4ad7483441457d413af8911b5e73bdff3c67c9a430c6dcd6"
+  },
+  {
+    "id": 32,
+    "path": "cgsys/config/btn_rpmode_on.png",
+    "text": "회상 선택으로",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "16eaae39a5b6cb8171795962bce82b6d1d43fea4fcc0cbbb57eec0a22d8e51a1"
+  },
+  {
+    "id": 33,
+    "path": "cgsys/config/btn_rpmode_over.png",
+    "text": "회상 선택으로",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "89f64f422b136993c8902210ab7c2f2d005a113ceed3092990c9c1bcf98a086d"
+  },
+  {
+    "id": 34,
+    "path": "cgsys/config/btn_tab_system_off.png",
+    "text": "시스템",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ada63ed13781f65dd274f2038eb85727085919e205b75df012421b3dd4d149ca"
+  },
+  {
+    "id": 35,
+    "path": "cgsys/config/btn_tab_system_on.png",
+    "text": "시스템",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "be7360eb98452a8d097c6499c59dd81f3b8b383635d5b4c301a1004ed5913129"
+  },
+  {
+    "id": 36,
+    "path": "cgsys/config/btn_tab_system_onover.png",
+    "text": "시스템",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "be7360eb98452a8d097c6499c59dd81f3b8b383635d5b4c301a1004ed5913129"
+  },
+  {
+    "id": 37,
+    "path": "cgsys/config/btn_tab_system_over.png",
+    "text": "시스템",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "f7be33acfb7e5f2565f84bf835c546633499cbb08621886fc40cba7786835c6d"
+  },
+  {
+    "id": 38,
+    "path": "cgsys/config/btn_tab_sound_off.png",
+    "text": "사운드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "81bea052cd1cd1b482f833f773e1a547309c752b18956a3268444725cc5db8e0"
+  },
+  {
+    "id": 39,
+    "path": "cgsys/config/btn_tab_sound_on.png",
+    "text": "사운드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "540bef9cf099beed32935c13bc7f7871df772a8a85b93cd9be05fdb77da9e6f5"
+  },
+  {
+    "id": 40,
+    "path": "cgsys/config/btn_tab_sound_onover.png",
+    "text": "사운드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "540bef9cf099beed32935c13bc7f7871df772a8a85b93cd9be05fdb77da9e6f5"
+  },
+  {
+    "id": 41,
+    "path": "cgsys/config/btn_tab_sound_over.png",
+    "text": "사운드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "26828382c9238a42c9b0b8a5d20b97080f4f458421e5fe76336abb96d7ba8ae1"
+  },
+  {
+    "id": 42,
+    "path": "cgsys/config/btn_tab_dialog_off.png",
+    "text": "기타",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ca28dcdd0827b43ad68f3359f3efbbedfce707a4cc11111297faa98a69a4fe4b"
+  },
+  {
+    "id": 43,
+    "path": "cgsys/config/btn_tab_dialog_on.png",
+    "text": "기타",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "244b4f9bb8e202bd94784c49c3367bf6b3463f3b0bc2be2413859a8b9d0a68b3"
+  },
+  {
+    "id": 44,
+    "path": "cgsys/config/btn_tab_dialog_onover.png",
+    "text": "기타",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "244b4f9bb8e202bd94784c49c3367bf6b3463f3b0bc2be2413859a8b9d0a68b3"
+  },
+  {
+    "id": 45,
+    "path": "cgsys/config/btn_tab_dialog_over.png",
+    "text": "기타",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "c783f5480e67eeca3761b29f88a84585be106e85b484492bd8a8a24494c57f5b"
+  },
+  {
+    "id": 46,
+    "path": "cgsys/config/btn_voice_off.png",
+    "text": "음성 테스트",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "c80c990dff7b26f1718d96fed94e35a4ac453afabb915f42f3f8b062336a772d"
+  },
+  {
+    "id": 47,
+    "path": "cgsys/config/btn_voice_over.png",
+    "text": "음성 테스트",
+    "font_size": 16,
+    "baseline_alignment": false,
+    "original_sha256": "27a66ee02931bae04dbb0f1bfea1a338f85a740a22e1003c662dc5c36eb1dfcc"
+  },
+  {
+    "id": 48,
+    "path": "cgsys/title/title_start_off.png",
+    "text": "처음부터",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "8c437638f7961aae281eb87875aa8ad834ad4bbfea35e41ba256ca432a317ebc"
+  },
+  {
+    "id": 49,
+    "path": "cgsys/title/title_start_over.png",
+    "text": "처음부터",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "8ad291b9408234e3dccf33dac20eed1d558ab2ab2e8c5c87040a2aad95f53053"
+  },
+  {
+    "id": 50,
+    "path": "cgsys/title/title_load_na.png",
+    "text": "이어서",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "40ff00656ff02b6537c04235ae4ac2d817909b385d758d7ed55a7e243d490a98"
+  },
+  {
+    "id": 51,
+    "path": "cgsys/title/title_load_off.png",
+    "text": "이어서",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "e6cfcf336eebcd79f3c7147ed10c3231ab2ffb4618079bec57fea2f1ced83d04"
+  },
+  {
+    "id": 52,
+    "path": "cgsys/title/title_load_over.png",
+    "text": "이어서",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "21ea17b686a0993f14fffedb0f57ea27e5a578646a0e5f9642a49690299e69c0"
+  },
+  {
+    "id": 53,
+    "path": "cgsys/title/title_extra_na.png",
+    "text": "엑스트라",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "e3f983e4b261d34e66f995cc2555cc6c87cacdb2906867ca01e452f73e4e1785"
+  },
+  {
+    "id": 54,
+    "path": "cgsys/title/title_extra_off.png",
+    "text": "엑스트라",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "a7ac1678c6e1f36263e4d0de7422f18d0de16c4dc31222c258d9e80197f54f82"
+  },
+  {
+    "id": 55,
+    "path": "cgsys/title/title_extra_over.png",
+    "text": "엑스트라",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "c1788700566f49125db5e98d4ba79df15254772e30e2943f063cf653c05c95ed"
+  },
+  {
+    "id": 56,
+    "path": "cgsys/title/title_config_off.png",
+    "text": "환경 설정",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "16ac878e2471b52e8c2c68c09814e94f5c408e60b8ffaa366e5f839c588b6bad"
+  },
+  {
+    "id": 57,
+    "path": "cgsys/title/title_config_over.png",
+    "text": "환경 설정",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "b46d56d6e2a31d0453aba00a34fac2d26576f3e3bbb5cbca93525d21c1acb7f4"
+  },
+  {
+    "id": 58,
+    "path": "cgsys/title/title_exit_off.png",
+    "text": "게임 종료",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "aa360ae19a32a0988c4ae67b2da28ae00b655351a28035ae0aa209dee504e1eb"
+  },
+  {
+    "id": 59,
+    "path": "cgsys/title/title_exit_over.png",
+    "text": "게임 종료",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "f87b7b611fa51c4e080233a3cc90274da0935a106499821c30bd0ee4722911d5"
+  },
+  {
+    "id": 60,
+    "path": "cgsys/title/title_story_off.png",
+    "text": "스토리",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "34eed59350f5f00e7321a516854d6063c47ce63e3b05f88794ef3410745e04a8"
+  },
+  {
+    "id": 61,
+    "path": "cgsys/title/title_story_over.png",
+    "text": "스토리",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "877aaedad509f8cec7d5d3c0908bb0b5a3c94590c78e91671523c3d697e7ea82"
+  },
+  {
+    "id": 62,
+    "path": "cgsys/title/title_endless_na.png",
+    "text": "엔드리스 파파카츠 모드",
+    "font_size": 29,
+    "baseline_alignment": false,
+    "original_sha256": "854e71e3082ad460310b701f390205c18893d04252ecf5722897e5447c51d867"
+  },
+  {
+    "id": 63,
+    "path": "cgsys/title/title_endless_off.png",
+    "text": "엔드리스 파파카츠 모드",
+    "font_size": 29,
+    "baseline_alignment": false,
+    "original_sha256": "e8a0b0454bb6110abac47e90dfdfee271d94f714f88484e7758c595be8e6c52b"
+  },
+  {
+    "id": 64,
+    "path": "cgsys/title/title_endless_over.png",
+    "text": "엔드리스 파파카츠 모드",
+    "font_size": 29,
+    "baseline_alignment": false,
+    "original_sha256": "f93514a81efcbfd29257792e530be372f5a5ab2f4874d613f0bee7f9847bf3c1"
+  },
+  {
+    "id": 65,
+    "path": "cgsys/title/title_allflg_off.png",
+    "text": "업적 해제",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "2810275d81d02d8c3c767299d4ebdc74b11511e00b537a982e933c9bb35eba2b"
+  },
+  {
+    "id": 66,
+    "path": "cgsys/title/title_allflg_over.png",
+    "text": "업적 해제",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "e295772c588b21a817cc227d727e59c70eb6bead5c757693c6834320f94d7a77"
+  },
+  {
+    "id": 67,
+    "path": "cgsys/title/title_back_off.png",
+    "text": "돌아가기",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "e42a708badf69151fe2544810862f0c418447b2b4699ecbc0a5d8a2eaf4311cd"
+  },
+  {
+    "id": 68,
+    "path": "cgsys/title/title_back_over.png",
+    "text": "돌아가기",
+    "font_size": 32,
+    "baseline_alignment": false,
+    "original_sha256": "861517b90f0aa710ce3c8947a154f766e558db871f7f9af6f1cac4cc41e5a060"
+  },
+  {
+    "id": 69,
+    "path": "cgsys/backlog/btn_back_off.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "77f543bd0dbbc5a5320b1ea1b9750aa722b5fd7a70c70b68d2f57a2ba9231548"
+  },
+  {
+    "id": 70,
+    "path": "cgsys/backlog/btn_back_on.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "0ba3cbbf455e7f7334d6f0a14e7ab84d4525923f31b56044d0500840f79d5df6"
+  },
+  {
+    "id": 71,
+    "path": "cgsys/backlog/btn_back_over.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "0ba3cbbf455e7f7334d6f0a14e7ab84d4525923f31b56044d0500840f79d5df6"
+  },
+  {
+    "id": 72,
+    "path": "cgsys/saveload/btn_back_off.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ce6e874e16e3015549ea1130f1b4d54954d4172fec9be50b6d5282b1096da7d6"
+  },
+  {
+    "id": 73,
+    "path": "cgsys/saveload/btn_back_on.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 74,
+    "path": "cgsys/saveload/btn_back_over.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 75,
+    "path": "cgsys/saveload/saveload_btn_title_off.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a780b7224b0506882694bf342b77533f2560b35933b5beb3e4db1e361496a8bb"
+  },
+  {
+    "id": 76,
+    "path": "cgsys/saveload/saveload_btn_title_on.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ddb925ce4bcf3d83a1add79a5dc1d132c746b6c49fa96461e1c3b4d5e22530fe"
+  },
+  {
+    "id": 77,
+    "path": "cgsys/saveload/saveload_btn_title_over.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ddb925ce4bcf3d83a1add79a5dc1d132c746b6c49fa96461e1c3b4d5e22530fe"
+  },
+  {
+    "id": 78,
+    "path": "cgsys/saveload/saveload_bt_exit_off.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "bc94417f6f02d562047ffeff24d40b71c27c3f1ea27b75ba816f6893276c951d"
+  },
+  {
+    "id": 79,
+    "path": "cgsys/saveload/saveload_bt_exit_on.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "3f859a983340f9e5ff62ae59abce004a2354b3344b9f1f3fdd29ac4a833acc91"
+  },
+  {
+    "id": 80,
+    "path": "cgsys/saveload/saveload_bt_exit_over.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "3f859a983340f9e5ff62ae59abce004a2354b3344b9f1f3fdd29ac4a833acc91"
+  },
+  {
+    "id": 81,
+    "path": "cgsys/saveload/saveload_bt_toload_na.png",
+    "text": "불러오기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "c6c76f998ea9fbcc9bb45f133ddecf71e85b52da80caccd71ac6656408a065a7"
+  },
+  {
+    "id": 82,
+    "path": "cgsys/saveload/saveload_bt_toload_off.png",
+    "text": "불러오기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a4cb2ec1f1b0eca80d6f0d023e3d55511e4e76cf6f2d0312ac85b2744511e14c"
+  },
+  {
+    "id": 83,
+    "path": "cgsys/saveload/saveload_bt_toload_on.png",
+    "text": "불러오기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "c6c76f998ea9fbcc9bb45f133ddecf71e85b52da80caccd71ac6656408a065a7"
+  },
+  {
+    "id": 84,
+    "path": "cgsys/saveload/saveload_bt_toload_over.png",
+    "text": "불러오기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9498fc5af7f56354435b907617479d234051e2e0dcba28f0a857e09b050a1026"
+  },
+  {
+    "id": 85,
+    "path": "cgsys/saveload/saveload_bt_tosave_na.png",
+    "text": "저장",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "511824a3190f9f0f1517675f5a5048bd616cb504b1fac056f610cefce1b9c065"
+  },
+  {
+    "id": 86,
+    "path": "cgsys/saveload/saveload_bt_tosave_off.png",
+    "text": "저장",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "5885516ede3bd54d8c475d95b3324a0191f44a15b7ffc5d570bbf54613582438"
+  },
+  {
+    "id": 87,
+    "path": "cgsys/saveload/saveload_bt_tosave_on.png",
+    "text": "저장",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "511824a3190f9f0f1517675f5a5048bd616cb504b1fac056f610cefce1b9c065"
+  },
+  {
+    "id": 88,
+    "path": "cgsys/saveload/saveload_bt_tosave_over.png",
+    "text": "저장",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "dd0f25a6758a8b2e98fdf391cb5686bbc58e8fb1978bca93c17ceadc76182087"
+  },
+  {
+    "id": 89,
+    "path": "cgsys/extra/btn_back_off.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ce6e874e16e3015549ea1130f1b4d54954d4172fec9be50b6d5282b1096da7d6"
+  },
+  {
+    "id": 90,
+    "path": "cgsys/extra/btn_back_on.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 91,
+    "path": "cgsys/extra/btn_back_out.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 92,
+    "path": "cgsys/extra/btn_back_over.png",
+    "text": "돌아가기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "885527adec9745bcb3c2ef47a2a976ab7fa132a7bf884d6c8b66b89ebf25f3d9"
+  },
+  {
+    "id": 93,
+    "path": "cgsys/extra/btn_end_off.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "bc94417f6f02d562047ffeff24d40b71c27c3f1ea27b75ba816f6893276c951d"
+  },
+  {
+    "id": 94,
+    "path": "cgsys/extra/btn_end_on.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "3f859a983340f9e5ff62ae59abce004a2354b3344b9f1f3fdd29ac4a833acc91"
+  },
+  {
+    "id": 95,
+    "path": "cgsys/extra/btn_end_out.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "03dde7f2a64d2f8b6cf0246afb77c7dcad808f315cfb87834af3c2078757d2b1"
+  },
+  {
+    "id": 96,
+    "path": "cgsys/extra/btn_end_over.png",
+    "text": "게임 종료",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "3f859a983340f9e5ff62ae59abce004a2354b3344b9f1f3fdd29ac4a833acc91"
+  },
+  {
+    "id": 97,
+    "path": "cgsys/extra/btn_title_off.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a780b7224b0506882694bf342b77533f2560b35933b5beb3e4db1e361496a8bb"
+  },
+  {
+    "id": 98,
+    "path": "cgsys/extra/btn_title_on.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ddb925ce4bcf3d83a1add79a5dc1d132c746b6c49fa96461e1c3b4d5e22530fe"
+  },
+  {
+    "id": 99,
+    "path": "cgsys/extra/btn_title_out.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "63f5cb099a1f5982736914258f9973d758b19ff80f9edd7b6d014ba7213892a1"
+  },
+  {
+    "id": 100,
+    "path": "cgsys/extra/btn_title_over.png",
+    "text": "타이틀",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ddb925ce4bcf3d83a1add79a5dc1d132c746b6c49fa96461e1c3b4d5e22530fe"
+  },
+  {
+    "id": 101,
+    "path": "cgsys/extra/btn_tab_cgmode_off.png",
+    "text": "CG 모드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "4ae652296a587428af29113b49b1420c03d71da825127f48b7a67220a85f3ed8"
+  },
+  {
+    "id": 102,
+    "path": "cgsys/extra/btn_tab_cgmode_on.png",
+    "text": "CG 모드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6c9ef0af7dd9dfaddfef1bc29435b3e8874d648428286070b81cc2c67c6c3e9f"
+  },
+  {
+    "id": 103,
+    "path": "cgsys/extra/btn_tab_cgmode_onover.png",
+    "text": "CG 모드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6c9ef0af7dd9dfaddfef1bc29435b3e8874d648428286070b81cc2c67c6c3e9f"
+  },
+  {
+    "id": 104,
+    "path": "cgsys/extra/btn_tab_cgmode_over.png",
+    "text": "CG 모드",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "ff7c980e5a7b57589b549cbc558329987d2cf587db0af53e945a70848c8d24e3"
+  },
+  {
+    "id": 105,
+    "path": "cgsys/extra/btn_tab_rpmode_off.png",
+    "text": "장면 회상",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "249090f6d6e2c53d7b53b87e94f2c69c66e098450a8589eb785a85b7bd2b7d31"
+  },
+  {
+    "id": 106,
+    "path": "cgsys/extra/btn_tab_rpmode_on.png",
+    "text": "장면 회상",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "01f9e8da9226f425f51dd4b61ac69267649f6b3cd7feda4216ca41cf3fd41655"
+  },
+  {
+    "id": 107,
+    "path": "cgsys/extra/btn_tab_rpmode_onover.png",
+    "text": "장면 회상",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "01f9e8da9226f425f51dd4b61ac69267649f6b3cd7feda4216ca41cf3fd41655"
+  },
+  {
+    "id": 108,
+    "path": "cgsys/extra/btn_tab_rpmode_over.png",
+    "text": "장면 회상",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6ef46a9095c5a7caf62285835bd5f5a802192b98011d5c96cd47900be5603de9"
+  },
+  {
+    "id": 109,
+    "path": "cgsys/confirm/btn_back_off.png",
+    "text": "닫기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "aab6c067ccfd2898b163707466357eca56f6ea322a8169d7e7b793ac6c45e6fb"
+  },
+  {
+    "id": 110,
+    "path": "cgsys/confirm/btn_back_on.png",
+    "text": "닫기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a474e466989507788806865d763803d2c3248d813604f14d4be55cc126f80e11"
+  },
+  {
+    "id": 111,
+    "path": "cgsys/confirm/btn_back_over.png",
+    "text": "닫기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a474e466989507788806865d763803d2c3248d813604f14d4be55cc126f80e11"
+  },
+  {
+    "id": 112,
+    "path": "cgsys/confirm/btn_no_off.png",
+    "text": "아니요",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "90bae4f71b570b67c5cddfd95566c0c4bdbe486302c9e156a576843443bfeda6"
+  },
+  {
+    "id": 113,
+    "path": "cgsys/confirm/btn_no_on.png",
+    "text": "아니요",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9aa5b219c8bc6914f69f6ec02bdecfeb2b74da54ed29bf09e4c8d5a92abe3d2a"
+  },
+  {
+    "id": 114,
+    "path": "cgsys/confirm/btn_no_over.png",
+    "text": "아니요",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9aa5b219c8bc6914f69f6ec02bdecfeb2b74da54ed29bf09e4c8d5a92abe3d2a"
+  },
+  {
+    "id": 115,
+    "path": "cgsys/confirm/btn_yes_off.png",
+    "text": "예",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1c446410fc754b64f54e89a94dadad140d207618def5f3fee191827a87a41572"
+  },
+  {
+    "id": 116,
+    "path": "cgsys/confirm/btn_yes_on.png",
+    "text": "예",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1369a98650cb918cd7219901eb1e0a0bf7f7d2fdc2dbf3229165e29e2442d999"
+  },
+  {
+    "id": 117,
+    "path": "cgsys/confirm/btn_yes_over.png",
+    "text": "예",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1369a98650cb918cd7219901eb1e0a0bf7f7d2fdc2dbf3229165e29e2442d999"
+  },
+  {
+    "id": 118,
+    "path": "cgsys/confirm/dialog_allflg.png",
+    "text": "조건과 관계없이 모든 업적을 해제합니다.\n정말 진행하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": true,
+    "original_sha256": "04212d3fb09145089b65b224afaf89b9cfcdb04cdca567badbd27cb1386e2d62"
+  },
+  {
+    "id": 119,
+    "path": "cgsys/confirm/dialog_cfginit.png",
+    "text": "설정을 초기화하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "4ad005ab797f4132ca90dbab88c0b03ebe73c04864f7bc7a474983568b4a9c0a"
+  },
+  {
+    "id": 120,
+    "path": "cgsys/confirm/dialog_cfginit_end.png",
+    "text": "설정을 초기화했습니다.",
+    "font_size": 25,
+    "baseline_alignment": true,
+    "original_sha256": "6d07a31838126b13b7f4309ecfa886cb88d67215d26c2bb0f7e426c71ff4885d"
+  },
+  {
+    "id": 121,
+    "path": "cgsys/confirm/dialog_end.png",
+    "text": "게임을 종료하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "282fa1eb000f84ff9036572d4f38b3b4c536565973b0272dd12e221e4c6336a2"
+  },
+  {
+    "id": 122,
+    "path": "cgsys/confirm/dialog_load.png",
+    "text": "불러오시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "665b763e4c48710d2b565c65438d56e70ff3723fafc9fe85b34fb714bfb0b9ed"
+  },
+  {
+    "id": 123,
+    "path": "cgsys/confirm/dialog_qload.png",
+    "text": "빠른 불러오기를 실행하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "7af402f00e535b5581c49b1407511ae2b2d64c1ac8969cbdf2014e34f65ab468"
+  },
+  {
+    "id": 124,
+    "path": "cgsys/confirm/dialog_qload_end.png",
+    "text": "빠른 불러오기를 완료했습니다.",
+    "font_size": 25,
+    "baseline_alignment": true,
+    "original_sha256": "04390985f5ff1b06bc28a03d34e060713de83835d48fc4ec0ccaba3145bc68bc"
+  },
+  {
+    "id": 125,
+    "path": "cgsys/confirm/dialog_qsave.png",
+    "text": "빠른 저장을 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "0ad7127acfede7fd7c6a01f20777e68f4f178d210a8c944cf87558055d59ea0c"
+  },
+  {
+    "id": 126,
+    "path": "cgsys/confirm/dialog_rpmode.png",
+    "text": "회상을 종료하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "bd63e0ca708252109c3bba9555e9cebec1393d73986f0ccdc79bf8570c4078ed"
+  },
+  {
+    "id": 127,
+    "path": "cgsys/confirm/dialog_save.png",
+    "text": "저장하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "a1e660417d9db0689d378288ba0543ba430eebfb365df6a1b17bccfa3ce3bee9"
+  },
+  {
+    "id": 128,
+    "path": "cgsys/confirm/dialog_save_delete.png",
+    "text": "저장 데이터를 삭제하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "8ab244b79718d80a750efd66f3541d19194c519d8adc5d015f67978fdf264a84"
+  },
+  {
+    "id": 129,
+    "path": "cgsys/confirm/dialog_save_ow.png",
+    "text": "덮어쓰시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "9d250e35eba27280e9d437f1d1fe4a26ca884c2263f87256fcc13260cf0839f3"
+  },
+  {
+    "id": 130,
+    "path": "cgsys/confirm/dialog_title.png",
+    "text": "타이틀로 돌아가시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "de7eae2422d353c2e0e2921f3cb50bd1351c731c67e7b65f15fe02ec6a172fbd"
+  },
+  {
+    "id": 131,
+    "path": "cgsys/confirm/dialog_msg_koh01.png",
+    "text": "「코하룬」과 파파카츠를 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "851697ef2ccff5193b72cd5cdd66f6c15e3cbe8dd68bf0c9e4b56aa96c491775"
+  },
+  {
+    "id": 132,
+    "path": "cgsys/confirm/dialog_msg_koh02.png",
+    "text": "「코하루」와 파파카츠를 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "418d209bbc69c1e55b0abbd566ac05b6ec7320880316bb9eab88deccdcfe4b5c"
+  },
+  {
+    "id": 133,
+    "path": "cgsys/confirm/dialog_msg_mio01.png",
+    "text": "「MIO」와 파파카츠를 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "2813c335a9da288e50aefac00e0eb121b5a5dfc265cdf5f784c86db17848361d"
+  },
+  {
+    "id": 134,
+    "path": "cgsys/confirm/dialog_msg_mio02.png",
+    "text": "「미오」와 파파카츠를 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "a212231ad19e50ac80c869047d95e43dec71cc12fadba3f5e8be72e2358954a1"
+  },
+  {
+    "id": 135,
+    "path": "cgsys/confirm/dialog_msg_yui01.png",
+    "text": "「유♥」와 파파카츠를 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "1d3ddea10d64e283169e48500e26878bde214c837741816b75f5454e9ac73152"
+  },
+  {
+    "id": 136,
+    "path": "cgsys/confirm/dialog_msg_yui02.png",
+    "text": "「유이나」와 파파카츠를 하시겠습니까?",
+    "font_size": 25,
+    "baseline_alignment": false,
+    "original_sha256": "fc4be4f3bb0175110281131f8ee153bbdfc8fb2e685c81fee61acccb188fb04f"
+  },
+  {
+    "id": 137,
+    "path": "cgsys/confirm/dialog_guide01.png",
+    "text": "호감도 힌트 표시 설정\n선택지에 따른 호감도 상승을 표시할 수 있습니다.\n원활한 공략을 원하시면 이 기능을 ON으로 설정하는 것을 권장합니다.\nON으로 설정하시겠습니까?\n(환경 설정 화면에서 언제든 변경할 수 있습니다.)",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "029a6cbe8fe7b5adbc0541aba0efec658a661d2d117f77d090d173e91433cdf5"
+  },
+  {
+    "id": 138,
+    "path": "cgsys/confirm/dialog_guide02.png",
+    "text": "스토리 클리어 후에도 파파카츠를 즐겨 보세요!\n스토리를 클리어한 캐릭터와도 계속 파파카츠를 즐길 수 있습니다.\nH 장면에서 자유롭게 행동을 선택하거나 의상을 바꿀 수 있어,\n본편과는 또 다른 새로운 즐거움을 제공합니다.",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "be9b8e43328da6a27a14ba784319037b470ec09a3a748e91207da4c61be99b8a"
+  },
+  {
+    "id": 139,
+    "path": "cgsys/confirm/dialog_guide03.png",
+    "text": "엔드리스 파파카츠 모드 해금\n엔드리스 파파카츠 모드에서는 스토리 클리어 후의\n행동 선택형 H 장면만 반복해서 플레이할 수 있습니다.\n타이틀의 [처음부터] → [엔드리스 파파카츠 모드]에서 즐겨 주세요.",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "6d033e7952c6ac871c3c36ab64effc74f197f1a72fad8cd26a2c84abeff1df6e"
+  },
+  {
+    "id": 140,
+    "path": "cgsys/confirm/dialog_guide04.png",
+    "text": "게이지 안내\n의상 변경\n【사정 게이지】\n남성기를 자극하면 게이지가 차오릅니다.\nMAX가 되면 테두리가 빛나며\n사정 선택지가 나타납니다.\n최대 5회 사정하면 장면이 종료됩니다.\n【절정 게이지】\n여성에게 쾌감을 주면 게이지가 차오릅니다.\nMAX가 되면 테두리가 빛납니다. 이 상태에서\n더 쾌감을 주면 램프가 최대 2개 켜지며,\n다음 클릭으로 여성이 절정에 도달합니다.\n일정 횟수 절정에 도달하면\n장면이 종료됩니다.\n의상을 자유롭게 변경할 수 있습니다.\n스토리 모드에서는 볼 수 없었던 조합도\n즐길 수 있습니다.",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "9c22a7f73c9922909737399786f197cc8679951ea2c39c6f0af2ea53fc043a9e"
+  },
+  {
+    "id": 141,
+    "path": "cgsys/confirm/dialog_job02.png",
+    "text": "부업을 하시겠습니까?\n등급\n승급까지\n보수\n선택 제한",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "36f55d2e056c867942610d3a6a5ae56ebf61d5ba27b9a9697976fff40742895a"
+  },
+  {
+    "id": 142,
+    "path": "cgsys/confirm/dialog_jobrankup01.png",
+    "text": "본업 등급 상승!\n본업으로 얻는 정기 수입이 증가했습니다.\n등급\n급여",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "e85080d4e7197e14296b59c0b92bd714a89e7cf5952bed535097558e8deb4c47"
+  },
+  {
+    "id": 143,
+    "path": "cgsys/confirm/dialog_jobrankup02.png",
+    "text": "부업 등급 상승!\n부업으로 얻는 일시 수입이 증가했습니다.\n등급\n보수",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "2c89a1013c4042f217faba876fec315697394121b904673b3efa82dbe60e3021"
+  },
+  {
+    "id": 144,
+    "path": "cgsys/confirm/dialog_jobstatus00.png",
+    "text": "현재 상태\n본업\n부업\n등급\n급여\n등급\n보수\n선택 제한",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "02fa738263d3bb90c1e4c91dd57837142cd85e81e6c61725295a541a8015e48a"
+  },
+  {
+    "id": 145,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh01_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "75c1f47f80d237ba2b5aff046e2d1e898a17a24da4637a23791ede65b8ecfa6c"
+  },
+  {
+    "id": 146,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh01_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "4fa069077812aeadd47294784e729490d6b3eee72f259d314bf51171b30269d6"
+  },
+  {
+    "id": 147,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh01_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "8e0521b959ded4748f9c94d27f10be19db025e167cc7091a930ceeb0e0ff18ea"
+  },
+  {
+    "id": 148,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh01_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "8e0521b959ded4748f9c94d27f10be19db025e167cc7091a930ceeb0e0ff18ea"
+  },
+  {
+    "id": 149,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh02_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "3678413706587dc8464f5730628688f847ca55c2e190db07cd28607ec43f6258"
+  },
+  {
+    "id": 150,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh02_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "788a575fd47d0644c2a8675ea4ee4b170d69916d75e4c9ba65ebd35d20fe6d71"
+  },
+  {
+    "id": 151,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh02_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "53811adfdb614432fb0170aabb55f61306e4035b460b278f61c2fdd5c1e10d4e"
+  },
+  {
+    "id": 152,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh02_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "53811adfdb614432fb0170aabb55f61306e4035b460b278f61c2fdd5c1e10d4e"
+  },
+  {
+    "id": 153,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh03_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "cee0ce53db92cc0f098bea3b0e5e380139e1cbad35995d3cb13942ac276d137f"
+  },
+  {
+    "id": 154,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh03_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "5858b5826b47514d31b55f76652ae23f5082a488e7e8853796432231af8ff333"
+  },
+  {
+    "id": 155,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh03_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9a1f270b722af3c57a811977a41327f8a1c00c4cb0624b3d56080c846aa895dc"
+  },
+  {
+    "id": 156,
+    "path": "cgsys/main/action_menu/btn_main_chara_koh03_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9a1f270b722af3c57a811977a41327f8a1c00c4cb0624b3d56080c846aa895dc"
+  },
+  {
+    "id": 157,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio01_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9476cc4e434788e14e2c5e271572f5c006ffe56aed75572778a3d4a2baee5af1"
+  },
+  {
+    "id": 158,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio01_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "46be871ed75d87c8caf9b2f3ca34338aaa788dda092fad8249667e9cf8148dbc"
+  },
+  {
+    "id": 159,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio01_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6fcfad8125ea422883e40b751f4a7d33284681334e03e70ec2293c6f9fd1fcb8"
+  },
+  {
+    "id": 160,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio01_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6fcfad8125ea422883e40b751f4a7d33284681334e03e70ec2293c6f9fd1fcb8"
+  },
+  {
+    "id": 161,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio02_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1c46e954114ac0a202d7e76a7ff231f24205f66fdc46484045f2e05a5c79f42c"
+  },
+  {
+    "id": 162,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio02_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "b8583de9fae425b58247dedc06179e5caf28ec2be859f607cd87fcdfb8aca7ba"
+  },
+  {
+    "id": 163,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio02_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "330e1cfb5a6c0beebf91b4c770e1bac6365028921502981a816fc45976dc38c0"
+  },
+  {
+    "id": 164,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio02_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "330e1cfb5a6c0beebf91b4c770e1bac6365028921502981a816fc45976dc38c0"
+  },
+  {
+    "id": 165,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio03_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "400fafc4a570058db70c33162bc6d69645af8689851261765fa966dc3ca84fa8"
+  },
+  {
+    "id": 166,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio03_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "2a0b9ca28a42c15567933d77949ce7ed7fe318000f41fafd98b095d4a879d408"
+  },
+  {
+    "id": 167,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio03_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "fc48154976fb2afc201b7ce997ed888ced3be436505d2a297a8bbec404f91f10"
+  },
+  {
+    "id": 168,
+    "path": "cgsys/main/action_menu/btn_main_chara_mio03_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "fc48154976fb2afc201b7ce997ed888ced3be436505d2a297a8bbec404f91f10"
+  },
+  {
+    "id": 169,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui01_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "53f7838493974bb994691a78e2ffdb8794799a8d86857331e32661617621810d"
+  },
+  {
+    "id": 170,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui01_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "7e1034a6a4cf288003f84a58399b83ffba7d66820fcb3a318e31cdf2ddead127"
+  },
+  {
+    "id": 171,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui01_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "4f6e0a81b8564cc7db3988ed8ac8e09869ef8c1d4119f72f864ee4fae333f981"
+  },
+  {
+    "id": 172,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui01_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "4f6e0a81b8564cc7db3988ed8ac8e09869ef8c1d4119f72f864ee4fae333f981"
+  },
+  {
+    "id": 173,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui02_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9c17b95fd1644df540f5662df7e55c6a8279266028d7466e4bd6961a7b03cb17"
+  },
+  {
+    "id": 174,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui02_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "426ed5aa81b42bbe703c21f1fecc9f78872878fe2d134977aa78567a6f3b27ab"
+  },
+  {
+    "id": 175,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui02_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "2b31eeabf3e88d9519bb87dbe56978b4f540e4013f52f95f5c54f6e1c1680ede"
+  },
+  {
+    "id": 176,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui02_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "2b31eeabf3e88d9519bb87dbe56978b4f540e4013f52f95f5c54f6e1c1680ede"
+  },
+  {
+    "id": 177,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui03_na.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "68264a6586b929435e11f9df6b4a9ac37a7ce19d9c5f1e2b7d656144a354fba2"
+  },
+  {
+    "id": 178,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui03_off.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "4ef5574b695d02158902453294258eb883ed4441ae6645e421ef5c6d4e77808a"
+  },
+  {
+    "id": 179,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui03_on.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1748d87802e9562be4318b2c0430ed67b814223963267b2a53687717229f4241"
+  },
+  {
+    "id": 180,
+    "path": "cgsys/main/action_menu/btn_main_chara_yui03_over.png",
+    "text": "선택 횟수 / 스토리 진행 / 호감도",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1748d87802e9562be4318b2c0430ed67b814223963267b2a53687717229f4241"
+  },
+  {
+    "id": 181,
+    "path": "cgsys/main/sozai/main_week_01.png",
+    "text": "주차",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "f5d1e14a8ce090faece747da132374d33f6553be41eef43a47d99ac3b8d13edb"
+  },
+  {
+    "id": 182,
+    "path": "cgsys/main/sozai/main_week_02.png",
+    "text": "주차",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6390de1bdb53888b3596ecbf29f2b5b3b17d1412f3065ea6856fcefd0af21224"
+  },
+  {
+    "id": 183,
+    "path": "cgsys/main/sozai/main_week_03.png",
+    "text": "주차",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "4a08e6619127d57cf96120827c7937c653540fea08d36756b8502fcd5ec135a9"
+  },
+  {
+    "id": 184,
+    "path": "cgsys/main/sozai/main_week_04.png",
+    "text": "주차",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "f5ec1e96c61e591285b2800c2925e5619c3913a4e888e58c55752185091f809d"
+  },
+  {
+    "id": 185,
+    "path": "cgsys/main/sozai/main_endlessmode_00.png",
+    "text": "엔드리스 파파카츠 모드",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "9892ea4dc18c45bdb31a2f88ff46fdb3cb0cd2e2aff10c2e463e2c4c79cd3853"
+  },
+  {
+    "id": 186,
+    "path": "cgsys/main/action_menu/btn_status_off.png",
+    "text": "스테이터스",
+    "font_size": 18,
+    "baseline_alignment": true,
+    "original_sha256": "579c0d49feb59777351625986ade7304f42daab0c04eee101fdc3612506682e4"
+  },
+  {
+    "id": 187,
+    "path": "cgsys/main/action_menu/btn_status_on.png",
+    "text": "스테이터스",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "e6cc7680978a29f3c2d061c3b803a54050095cea9ada3808dff053e0cd08e25a"
+  },
+  {
+    "id": 188,
+    "path": "cgsys/main/action_menu/btn_status_over.png",
+    "text": "스테이터스",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "e6cc7680978a29f3c2d061c3b803a54050095cea9ada3808dff053e0cd08e25a"
+  },
+  {
+    "id": 189,
+    "path": "cgsys/main/or_custom_button/btn_back_off.png",
+    "text": "닫기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "aab6c067ccfd2898b163707466357eca56f6ea322a8169d7e7b793ac6c45e6fb"
+  },
+  {
+    "id": 190,
+    "path": "cgsys/main/or_custom_button/btn_back_on.png",
+    "text": "닫기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a474e466989507788806865d763803d2c3248d813604f14d4be55cc126f80e11"
+  },
+  {
+    "id": 191,
+    "path": "cgsys/main/or_custom_button/btn_back_over.png",
+    "text": "닫기",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "a474e466989507788806865d763803d2c3248d813604f14d4be55cc126f80e11"
+  },
+  {
+    "id": 192,
+    "path": "cgsys/main/or_custom_button/portal/app_talk_koharu_main.png",
+    "text": "색상 설정 / 머리 / 피부 / 속옷",
+    "font_size": 27,
+    "baseline_alignment": false,
+    "original_sha256": "04f8f3f25f13a2db4dfdee1dfd00d9e271890b97ee472b9fa007a3852fa1bd77"
+  },
+  {
+    "id": 193,
+    "path": "cgsys/main/or_custom_button/portal/app_talk_mio_main.png",
+    "text": "색상 설정 / 머리 / 피부 / 속옷",
+    "font_size": 27,
+    "baseline_alignment": false,
+    "original_sha256": "04f8f3f25f13a2db4dfdee1dfd00d9e271890b97ee472b9fa007a3852fa1bd77"
+  },
+  {
+    "id": 194,
+    "path": "cgsys/main/or_custom_button/portal/app_talk_yuina_main.png",
+    "text": "색상 설정 / 머리 / 피부 / 속옷",
+    "font_size": 27,
+    "baseline_alignment": false,
+    "original_sha256": "04f8f3f25f13a2db4dfdee1dfd00d9e271890b97ee472b9fa007a3852fa1bd77"
+  },
+  {
+    "id": 195,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_koharu_off.png",
+    "text": "코하루",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "9308cef07237b5accbc01556a1c09dde9fa2055de4e2fcc655d5ea268259dad2"
+  },
+  {
+    "id": 196,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_koharu_on.png",
+    "text": "코하루",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "8da09098d48b943615d58805ea0d6d14a8729a76be1fb991e78d1a3a69ca26e5"
+  },
+  {
+    "id": 197,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_koharu_over.png",
+    "text": "코하루",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "1d28c175482cdac0e40959314aa2107860f2d079e865064ad13cded3a668662d"
+  },
+  {
+    "id": 198,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_mio_off.png",
+    "text": "미오",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "17fc9ae9dcc6fcbf5847fed07d9198704574a401f08bfbc05fd1b232d73fba08"
+  },
+  {
+    "id": 199,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_mio_on.png",
+    "text": "미오",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "6831a80c4468d064c36cd3f159bf01bfb3240408dae3acd24f41aedd7580d30c"
+  },
+  {
+    "id": 200,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_mio_over.png",
+    "text": "미오",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "50a75eca60e0615cff9a966b663058d3bda3a5ab330646d973ed43ef20212a63"
+  },
+  {
+    "id": 201,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_yuina_off.png",
+    "text": "유이나",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "d89c0ec0ae3854406495809e5ee35fbebcd317ef26ecf4bcc3b9d306cbc50d4c"
+  },
+  {
+    "id": 202,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_yuina_on.png",
+    "text": "유이나",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "2cefa45e0160b01a968f73289862126d5fff39f94282088783db8ca2d592bd7f"
+  },
+  {
+    "id": 203,
+    "path": "cgsys/main/or_custom_button/portal/btn_app_talk_yuina_over.png",
+    "text": "유이나",
+    "font_size": 18,
+    "baseline_alignment": false,
+    "original_sha256": "b091af5bc319e4b12fbeb3ece269e5d578a55410016598c576700f99b62e3f77"
+  },
+  {
+    "id": 204,
+    "path": "cg/bg/caution.png",
+    "text": "본 제품은 만 18세 미만이 이용할 수 없습니다.\n본 작품은 허구이며, 등장하는 인물·단체는\n실존하는 인물·단체와 일절 관계가 없습니다.\n본 작품은 일본 국내에서만 판매합니다.\n해외 실행 환경 등에 대한 지원은 제공하지 않습니다.\n본 작품에 포함된 영상·이미지 등은 저작권법에 따라 저작물로서 법적 보호를 받습니다.\n법에 위반되는 복제, 양도, 대여, 번역, 개조, 공중송신 등의 위법 행위가 있을 경우,\n직접 행한 경우는 물론 타인의 행위에 관여한 경우에도\n민사상 손해배상 책임을 지며 형사처벌을 받을 수 있습니다.",
+    "font_size": null,
+    "baseline_alignment": false,
+    "original_sha256": "c8391b4d5a45a06da25a8b4adb07bd0c2a99e78cf30ae0bcbcc71c1e7dc21b7b"
+  }
+]
