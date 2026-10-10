@@ -38,7 +38,7 @@ Windows 10/11 **64비트**, 원본 게임 **ver1.01**용입니다.
 ## 빌드 방법
 
 1. `VERSION`에 버전을 `1.0.0` 형식으로 지정합니다.
-2. GitHub Actions의 **Build Korean patch EXE**를 수동 실행합니다.
+2. `main`에 push하면 **Build Korean patch EXE**가 자동 실행됩니다. 필요하면 Actions에서 수동 실행할 수도 있습니다.
 3. 아티팩트 안의 `GalPapaKoreanPatch-v버전.exe` 한 파일을 배포합니다.
 
 `VERSION`과 같은 `v1.0.0` 형식의 태그를 push하면 Release에도 EXE 하나를 첨부합니다. 런처·주입기·한글 DLL은 C++ 소스에서 자동 빌드합니다. 원본 게임 데이터와 이전 빌드 결과는 필요하지 않습니다.
