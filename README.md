@@ -39,9 +39,9 @@ Windows 10/11 **64비트**, 원본 게임 **ver1.01**용입니다.
 
 1. `VERSION`에 버전을 `1.0.0` 형식으로 지정합니다.
 2. `main`에 push하면 **Build Korean patch EXE**가 자동 실행됩니다. 필요하면 Actions에서 수동 실행할 수도 있습니다.
-3. 아티팩트 안의 `GalPapaKoreanPatch-v버전.exe` 한 파일을 배포합니다.
+3. 빌드가 성공하면 GitHub Release에 `GalPapaKoreanPatch-v버전.exe` 한 파일이 자동 등록됩니다.
 
-`VERSION`과 같은 `v1.0.0` 형식의 태그를 push하면 Release에도 EXE 하나를 첨부합니다. 런처·주입기·한글 DLL은 C++ 소스에서 자동 빌드합니다. 원본 게임 데이터와 이전 빌드 결과는 필요하지 않습니다.
+같은 버전은 릴리즈의 EXE를 갱신하며, 새 버전을 배포할 때는 `VERSION`을 올립니다. `v1.0.0`처럼 `VERSION`과 일치하는 태그를 push하거나 수동 실행해도 동일하게 빌드·배포합니다. 런처·주입기·한글 DLL은 C++ 소스에서 자동 빌드합니다. 원본 게임 데이터와 이전 빌드 결과는 필요하지 않습니다.
 
 ## 번역 수정 방법
 
