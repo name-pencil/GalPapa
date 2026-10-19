@@ -2,6 +2,9 @@
 /build/
 /dist/
 /trash/
+/game/
+/.acl-recovery/
+/.galpapa_korean/
 
 # Python environments and caches
 .venv/
@@ -14,6 +17,7 @@ __pycache__/
 # Game archives, saves and compiled binaries
 *.ypf
 *.sav
+*.sd
 *.exe
 *.dll
 *.obj

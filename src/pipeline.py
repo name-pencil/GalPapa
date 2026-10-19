@@ -53,7 +53,7 @@ def build(game,out,original_data,prebuilt=None,status=print,progress=None):
  runtime=dist/'korean_patch';shutil.copyfile(out/'work/text/hangul_map.bin',runtime/'hangul_map.bin');shutil.copyfile(ROOT/'assets/fonts/Paperlogy-6SemiBold.ttf',runtime/'Paperlogy-6SemiBold.ttf')
  notify(93,'최종 파일 검증')
  files=RUNTIME_FILES+['korean_patch/hangul_map.bin','korean_patch/Paperlogy-6SemiBold.ttf','pac/update2.ypf','pac/cgsys.ypf','pac/cg.ypf']
- manifest={'files':{n:digest(dist/n) for n in files},'image_count':len(rows),'archives':reports,'inputs':{'original_archives':expected,'image_translations':{'phone_ko.json':digest(ROOT/'translation/images/phone_ko.json')},'translations':{n:digest(ROOT/'translation/reviewd'/n) for n in ['messages_ko.jsonl','ui_literals_ko.jsonl']},'fonts':{f.name:digest(f) for f in (ROOT/'assets/fonts').glob('*.ttf')}}}
+ manifest={'files':{n:digest(dist/n) for n in files},'image_count':len(rows),'archives':reports,'inputs':{'original_archives':expected,'image_translations':{'phone_ko.json':digest(ROOT/'translation/images/phone_ko.json')},'translations':{n:digest(ROOT/'translation/reviewd'/n) for n in ['messages_ko.jsonl','ui_literals_ko.jsonl','voice_text_ko.jsonl']},'fonts':{f.name:digest(f) for f in (ROOT/'assets/fonts').glob('*.ttf')}}}
  manifest['patch_version']=VERSION
  manifest['inputs']['glossary']=digest(ROOT/'translation/glossary_v1.json')
  (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')

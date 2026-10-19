@@ -10,7 +10,7 @@ datas.append((str(project/'LICENSE'),'licenses'))
 datas.append((str(project/'LICENSES/GARbro.txt'),'licenses'))
 for name in ['image_specs.json','original_hashes.json','restaurant_backgrounds.json']:
  datas.append((str(project/'src'/name),'src'))
-for name in ['messages_ko.jsonl','ui_literals_ko.jsonl']:
+for name in ['messages_ko.jsonl','ui_literals_ko.jsonl','voice_text_ko.jsonl']:
  datas.append((str(project/'translation/reviewd'/name),'translation/reviewd'))
 datas.append((str(project/'translation/images/phone_ko.json'),'translation/images'))
 datas.append((str(project/'translation/glossary_v1.json'),'translation'))

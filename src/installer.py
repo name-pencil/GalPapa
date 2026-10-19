@@ -18,7 +18,7 @@ def self_test():
  ImageFont.truetype(str(SYMBOL),20)
  expected=json.loads((ROOT/'prebuilt/runtime_manifest.json').read_text(encoding='utf-8'))
  for name in RUNTIME_FILES:assert digest(ROOT/'prebuilt'/name)==expected[name]
- for name in ['messages_ko.jsonl','ui_literals_ko.jsonl']:assert (ROOT/'translation/reviewd'/name).is_file()
+ for name in ['messages_ko.jsonl','ui_literals_ko.jsonl','voice_text_ko.jsonl']:assert (ROOT/'translation/reviewd'/name).is_file()
  return {'ok':True,'version':VERSION,'frozen':bool(getattr(sys,'frozen',False)),'python':sys.version.split()[0],'native_files':len(expected),'network_required':False}
 
 def patch(game,status):

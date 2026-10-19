@@ -21,6 +21,7 @@ Windows 10/11 **64비트**, 원본 게임 **ver1.01**용입니다.
 
 게임 폴더 쓰기 권한과 약 4GB의 여유 공간이 필요합니다.
 `.galpapa_korean`의 원본·복구 백업은 유지하세요.
+기존 `save/gsd.sd`가 있으면 파일 교체 전에 `.galpapa_korean/save_backups/날짜-시간/gsd.sd`로 백업하고 검증합니다. 백업에 실패하면 설치를 중단합니다. 슬롯 세이브는 수정하지 않습니다.
 
 ### 원본 파일 SHA-256
 
@@ -50,6 +51,8 @@ Windows 10/11 **64비트**, 원본 게임 **ver1.01**용입니다.
 - 휴대폰 이미지 대화: `translation/images/phone_ko.json`
 - 공통 용어·승인된 음식명: `translation/glossary_v1.json`
 - 나머지 이미지 문구·배치: `src/`의 이미지 생성 코드와 `src/image_specs.json`
+- 엔드리스 H신 대사: `translation/reviewd/voice_text_ko.jsonl`
+- 엔드리스 버튼·의상·게이지 이미지: `src/endless_images.py`의 문구와 렌더링 규칙
 
 JSONL은 `target`만 수정하고 `source`, ID, 위치·검증 정보는 유지합니다. 휴대폰 이미지는 `text`의 줄바꿈을 유지합니다. 음식명은 용어집과 대사 번역을 함께 수정해 표기를 맞춥니다.
 

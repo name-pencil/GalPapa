@@ -110,6 +110,8 @@ def build(archives,out,progress=None):
  report.extend(job_button_images.build(source,target,len(report)+1))
  import week_images
  report.extend(week_images.build(source,target,len(report)+1))
+ import endless_images
+ report.extend(endless_images.build(source,target,len(report)+1))
  reporter(100,f'이미지 {len(report)}개 완료')
  (out/'image_manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
  return report

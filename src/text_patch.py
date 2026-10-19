@@ -85,6 +85,19 @@ def build(archive, out, messages_only=False, progress=None):
             require(not any(ord(c) < 32 for c in row['target']), 'Unexpected control character: ' + row['id'])
             grouped['ysbin\\' + row['script'] + '.ybn'][row['argument']].append((category, row))
             all_rows.append(row)
+    # Endless H-scene lines live in CG_VOICETEXT_* define scripts; their voice
+    # id prefix is part of the atom, so they stay in a separate table.
+    import voice_text
+    bank_path = source / 'reviewd' / voice_text.NAME
+    bank_rows = [] if options.messages_only else voice_text.load(bank_path, archives)
+    for row in bank_rows:
+        require(isinstance(row['target'], str) and bool(row['target']), 'Empty target: ' + row['id'])
+        require(not any(ord(c) < 32 for c in row['target']), 'Unexpected control character: ' + row['id'])
+        grouped['ysbin\\' + row['script'] + '.ybn'][row['argument']].append(('literal', row))
+        all_rows.append(row)
+    if bank_rows:
+        counts['voice_text'] = len(bank_rows)
+        input_hashes[voice_text.NAME] = sha(bank_path.read_bytes())
     import dialogue_layout
     layout_report = dialogue_layout.prepare(all_rows, archives)
     (stage / 'dialogue_layout_report.json').write_text(json.dumps(layout_report, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -184,6 +197,7 @@ def build(archive, out, messages_only=False, progress=None):
         patched_files[name] = patched
         if progress: progress(len(patched_files),len(grouped))
         changed_args += len(replacements)
+    voice_refresh = voice_text.refresh_after_restore(patched_files, archives) if bank_rows else None
     # Keep the proven YPF index and append updated streams, as the sample does.
     rebuilt = bytearray(archive_path.read_bytes())
     index_end = struct.unpack_from('<I', rebuilt, 12)[0]
@@ -203,7 +217,7 @@ def build(archive, out, messages_only=False, progress=None):
     require(check.keys() == archives.keys(), 'Archive inventory mismatch')
     for name, (payload, _) in check.items():
         require(payload == patched_files.get(name, archives[name][0]), 'Archive payload mismatch: ' + name)
-    report = dict(inputs=input_hashes, rows=counts, changed_scripts=len(patched_files),
+    report = dict(inputs=input_hashes, rows=counts, voice_refresh=voice_refresh, changed_scripts=len(patched_files),
                   changed_arguments=changed_args, archive_entries=len(check), characters=len(chars),
                   retained_mapping_characters=len(old_mapping), patch_sha256=sha(bytes(rebuilt)),
                   inherited_literal_hashes=inherited_literal_hashes,
